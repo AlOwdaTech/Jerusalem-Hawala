@@ -1,0 +1,108 @@
+:root {
+    --primary-color: #fbff00;
+  }
+  
+  * {
+    box-sizing: border-box;
+    user-select: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+
+    background-image: url(https://www11.0zz0.com/2024/05/24/13/436055558.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 125vh;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-family: Droid Arabic Kufi    ;
+    color: var(--primary-color);
+  }
+  
+  p {
+    font-family: Scheherazade;
+    font-size: 42px;
+
+    text-align: center;
+    color: #dedede;
+  }
+  
+  .btn {
+    font-family: Droid Arabic Kufi    ;
+
+    color: #000000;
+    background: var(--primary-color);
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px 12px;
+  }
+  a{
+    color: rgb(0, 217, 255);
+  }
+  .money-img {
+    width: 150px;
+  }
+  
+  .currency {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .currency select {
+    font-family: Droid Arabic Kufi    ;
+    width: 180px;
+    height: 40px;
+    background-color: #af8686;
+
+    padding: 10px 20px 10px 10px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: 1px solid #dedede;
+    font-size: 14px;
+  }
+  
+  .currency input {
+    color: white;
+    border: 2;
+    background: transparent;
+    font-size: 30px;
+    text-align: right;
+  }
+  
+  .swap-rate-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .rate {
+    color: var(--primary-color);
+    font-size: 14px;
+    padding: 0 10px;
+  }
+  
+  select:focus, input:focus, button:focus {
+    outline: 0;
+  }
+  
+  @media (max-width: 600px) {
+    .currency input {
+      width: 200px;
+    }
+  }

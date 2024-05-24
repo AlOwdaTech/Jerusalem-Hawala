@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>القدس للحوالة</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://www11.0zz0.com/2024/05/24/13/682383124.png">
+  <link href='http://fonts.googleapis.com/earlyaccess/droidarabickufi.css' rel='stylesheet' type='text/css'/>
+  <link href='http://fonts.googleapis.com/earlyaccess/scheherazade.css' rel='stylesheet' type='text/css'/>
+
+</head>
+<body>
+  <img src="https://www11.0zz0.com/2024/05/24/13/682383124.png" alt="money" class="money-img" style="width: 300px;">
+  <h1>القدس للحوالة</h1>
+  <p>اختر العملة والمبلغ للحصول على سعر الصرف</p>
+  <div class="container">
+    <div class="currency">
+      <select id="currency-one">
+        <option value="AED">درهم اماراتي</option>
+        <option value="ARS">البيزو الأرجنتيني</option>
+        <option value="BHD">الدينار البحريني</option>
+        <option value="BRL">الريال البرازيلي</option>
+        <option value="CAD">الدولار الكندي</option>
+        <option value="EGP">الجنيه المصري</option>
+        <option value="EUR">اليورو </option>
+        <option value="ILS" selected>الشيكل الإسرائيلي</option>
+        <option value="JOD">الدينار الاردني</option>
+        <option value="QAR">الريال القطري</option>
+        <option value="SAR">الريال السعودي</option>
+        <option value="TRY">الليرة التركية</option>
+        <option value="USD" >الدولار الأمريكي</option>
+        <option value="YER">الريال اليمني</option>
+      </select>
+      <input type="number" id="amount-one" placeholder="0" value="1">
+    </div>
+    <div class="swap-rate-container">
+      <button class="btn" id="swap">تبديل</button>
+      <div class="rate" id="rate"></div>
+    </div>
+    <div class="currency">
+      <select id="currency-two">
+        <option value="AED">درهم اماراتي</option>
+        <option value="ARS">البيزو الأرجنتيني</option>
+        <option value="BHD">الدينار البحريني</option>
+        <option value="BRL">الريال البرازيلي</option>
+        <option value="CAD">الدولار الكندي</option>
+        <option value="EGP">الجنيه المصري</option>
+        <option value="EUR">اليورو </option>
+        <option value="ILS">الشيكل الإسرائيلي</option>
+        <option value="JOD">الدينار الاردني</option>
+        <option value="QAR">الريال القطري</option>
+        <option value="SAR">الريال السعودي</option>
+        <option value="TRY">الليرة التركية</option>
+        <option value="USD" selected>الدولار الأمريكي</option>
+        <option value="YER">الريال اليمني</option>
+
+      </select>
+      <input type="number" id="amount-two" placeholder="0">
+    </div>
+  </div>
+    <p class="copyright--text float-english rtl" style="color: chartreuse; font-size: 40px;"> <a target="blank" href="https://alowdatech.github.io/Al-Owda-Tech/">  Al Owda Tech  </a>    © تصميم </p>
+<script src="script.js"></script>
+</body>
+</html>
